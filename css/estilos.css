@@ -9,6 +9,9 @@ body {
     background-color: #000;
 }
 
+
+
+
 h1 {
     color: #FFF;
 }
@@ -241,7 +244,7 @@ h3 {
     transition: 0.7s;
     padding: 22px 20px;
     z-index: 10;
-    background-color: #2f3033cf;
+    background-color: #000000cf;
     text-align: right;
 
 
@@ -262,7 +265,7 @@ h3 {
 
 
 .nav.abajo {
-    background: #3a3a3a;
+    background: #000000;
     padding: 15px 20px;
 }
 
@@ -677,6 +680,13 @@ footer {
         width: 90%;
     }
 }
+
+@media (max-width:1300px){
+    h1{
+     font-size: 40px;
+    }
+}
+
 
 @media screen and (max-width:500px) {
     nav {
